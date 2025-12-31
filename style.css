@@ -1,0 +1,153 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+}
+
+/* NAVBAR */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+}
+
+#logo img {
+    height: 55px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: #ff7a18;
+}
+
+/* HOME */
+#home {
+    height: 100vh;
+    background: url('img/pexels-goumbik-349610.jpg') no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home p {
+    font-size: 1.1rem;
+}
+
+/* UTILITIES */
+.h-primary {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff7a18;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e66a12;
+}
+
+/* SERVICES */
+#services {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box img {
+    height: 120px;
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* CLIENTS */
+#client-section {
+    background: #eee;
+    padding: 40px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#clients img {
+    height: 70px;
+}
+
+/* CONTACT */
+#contact {
+    background: url('img/pexels1.jpg') no-repeat center/cover;
+    padding: 50px;
+}
+
+#contact-box form {
+    width: 40%;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
